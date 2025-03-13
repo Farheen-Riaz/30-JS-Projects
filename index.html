@@ -1,0 +1,1013 @@
+
+<!-- Task: 01 -->
+ 
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+
+ console.log("Hello World!");  
+ alert("Hello World");
+ document.write("<h1>Hello World</h1>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+ -->
+
+
+<!-- task :02 -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        static number
+
+        let a= 5;
+        let b= 4;
+        var c = a + b;
+        console.log("The sum of "+a+" and "+b+" is:"+c)
+
+
+        dynamic number 
+let a= prompt("please enter the first number","");
+        let b= prompt("please enter the first number","");
+
+        var c = parseInt(a) + parseInt(b);
+        console.log("The sum of "+a+" and "+b+" is:"+c)
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+<!-- //Task : 03// -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       let a= prompt("please enter the first number",""); 
+       let b = Math.sqrt(a);
+       console.log(b);
+    </script>
+</head>
+<body>
+    
+</body>
+</html> -->
+
+
+
+<!-- Task : 04 -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        to find the area of triangle//
+let base = prompt("please enter the base value"); 
+let height = prompt("please enter the height value "); 
+let area =(base* height)/2;
+
+console.log("base: " +base+ ", height:" +height+ " , area: " +area);
+
+to find the area of regular triangle//
+
+let a = 10;
+let b = 10;
+let c = 10;
+let s = (a+b+c)/2;
+let temp = s*(s-a)*(s-b)*(s-c);
+let area = Math.sqrt(temp);
+console.log(area);
+
+ </script>
+</head>
+<body>
+    
+</body>
+</html> -->
+
+
+<!-- //task : 05// -->
+
+<!-- swapping of two number -->
+
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>  -->
+
+<!-- // swapping temporary variable -->
+
+<!-- // let a = prompt("please enter the a  number"); 
+// let b = prompt("please enter the b  number"); 
+// console.log(`The value of a is : ${a}, "the value of b is :${b}`);
+// let temp ;
+// temp = a;
+//  a = b;
+//  b= temp;
+// console.log(`After swapping the value of a is:${a},the value of b is: ${b}`);
+
+//without temporary variable// -->
+
+<!-- let a = parseInt(prompt("please enter the a  number")); 
+let b = parseInt(prompt("please enter the b  number")); 
+ console.log(`The value of a is : ${a}, "the value of b is :${b}`);
+
+a = a+b;
+b= a-b;
+a= a-b;
+
+console.log(`After swapping the value of a is:${a},the value of b is: ${b}`);
+
+ </script>
+</head>
+<body>
+    
+</body>
+</html>  -->
+
+
+
+<!-- //Task : 06// -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="" step="any" id="data"> kms
+    <button onclick="convert()">convert</button>miles
+    <h1 id="res"></h1>
+    <script>
+        function convert(){
+            let kms= document.getElementById(`data`).value;
+            const factor = 0.621371;
+            let miles = kms * factor;
+            alert(miles);
+             document.getElementById(`res`).innerText = miles + 'miles';
+
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+<!-- // 07
+celcius to farenhiet -->
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<input type="text" name="" id="data">
+<br>
+<button onclick="convert()">convert</button>
+<h1 id="res"></h1>
+
+    <script>
+function convert(){
+    let c = document.getElementById(`data`).value;
+alert(c);
+let f = (c * 1.8) + 32
+alert(f);
+document.getElementById('res').innerText = ${c} 'C'= ${f} 'F';
+}
+    </script>
+</body>
+</html> -->
+
+
+
+<!-- Task: 08
++ - 0 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="data">
+<br>
+<button onclick="check()">check</button>
+<h1 id="res"></h1>
+<script>
+    function check(){
+    let value = document.getElementById(`data`).value;
+let res = Math.sign(value);
+ document.getElementById(`res`).innerText = res;
+   </script>
+</body>
+</html> -->
+
+
+
+<!-- 
+Task:09
+
+
+<!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>CHECK IF A NUMBER IS A PRIME NUMBER</title>
+     <script type="text/javascript">
+         var number = prompt("Enter a number");
+         if (number == 1) {
+             console.log(`${number} is neither prime nor composite`);
+         }
+         else if (number < 1) {
+             console.log(`${number} is not a prime number`);
+ 
+         }
+         else {
+             for (var i = 2; i < number; i++) {
+                 if (number % i == 0) {
+                     var res = `${number} is not a prime number`;
+                     break;
+                 }
+                   
+                 else{
+                     var res = `${number} is a prime number`;
+                 }
+             }
+             console.log(res);
+         }
+     </script>
+ </head>
+ 
+ <body>
+ 
+ </body>
+ 
+ </html> -->
+
+
+<!-- Task: 10  -->
+
+<!-- 
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>FINDING LARGEST NUMBER</title>
+     <script type="text/javascript">
+         // using Math.max() method:
+         // Math.max() returns the largest number among the provided numbers.
+         // syntax: Math.max(n1,n2,n3);
+         var a = prompt("Enter the first number");
+         var b = prompt("Enter the second number");
+         var c = prompt("Enter the third number");
+         var x = Math.max(a,b,c);
+         console.log(`${a},${b},${c}: largest =${x}`);
+ 
+         // using user-defined method:
+         function check(p,q,r){
+             if(p>=q && p>=r){
+                 return p;
+             }
+             else if(q>=p && q>=r){
+                 return q;
+             }
+             else{
+                 return r;
+             }
+ 
+         }
+         var d = prompt("Enter the first number");
+         var e = prompt("Enter the second number");
+         var f = prompt("Enter the third number");
+         var z = check(d,e,f);
+         console.log(`${d},${e},${f}: largest =${z}`);
+ 
+         
+     </script>
+ 
+ </head>
+ <body>
+     
+ </body>
+ </html> -->
+ 
+<!-- Task: 11  -->
+
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>FIND FACTORIAL OF A NUMBER</title>
+     <script type="text/javascript">
+         var number = prompt("Enter a number");
+         var fact = 1;
+         if(number == 0){
+             console.log(`The factorial of ${number} is 1`);
+         }
+         else if(number < 0){
+             console.log(`The factorial of negative numbers is not possible`);
+         }
+         else{
+             for(var i=1; i<=number; i++){
+                 fact = fact * i;
+ 
+             }
+             console.log(`The factorial of ${number} is ${fact}`);
+ 
+         }
+ 
+     </script>
+ 
+ </head>
+ <body>
+     
+ </body>
+ </html> -->
+
+<!-- Task: 12 -->
+<!-- 
+<!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>find factorial of a number using recursion</title>
+     <script type="text/javascript">
+     // The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function.
+         var number = prompt("Enter a number");
+         var fact = 1;
+         console.log(fact);
+ 
+         function factr(n){
+             if(n>number){
+                 return;
+             }
+             var temp = fact;
+             fact = fact * n;
+           // console.log(temp +" x "+ n + " = "+ fact);
+             n++;
+             factr(n);
+         }
+         factr(1);
+         console.log(`The fact of ${number} is ${fact}`)
+     </script>
+ 
+ </head>
+ 
+ <body>
+ 
+ </body>
+ 
+ </html> -->
+
+
+ <!-- Task:13 -->
+
+<!-- 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>print the table of any user given number</title>
+     <script type="text/javascript">
+         function table(number){
+             for(var i=1; i<=10; i++){
+                 var res = i * number;
+                // console.log(res);
+                console.log(`${number} x ${i} = ${res}`);
+             }
+         }
+         table(5);
+         table(10);
+     </script>
+ 
+ </head>
+ <body>
+     
+ </body>
+ </html> -->
+
+
+
+  <!-- Task:14 -->
+
+  <!-- <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>check whether a string starts and ends with certain characters</title>
+      <script type="text/javascript">
+  
+          var string = prompt("Enter a string:");
+          console.log(string);
+          var testStart = string.startsWith('W');
+          var testEnd = string.endsWith('e');
+          if(testStart == true && testEnd == true){
+              console.log(`${string} starts with W and ends with e`);
+          }
+              else if(testStart == true && testEnd == false){
+                      console.log(`${string} starts with W`);
+              }
+             
+              else if(testStart == false && testEnd == true){
+                  console.log(`${string} end with e`);
+  
+              }
+              else{
+                  console.log(`${string} neither starts with W nor ends with e`);
+  
+              }
+              
+  
+          
+  
+      </script>
+  </head>
+  <body>
+      
+  </body>
+  </html>
+ -->
+
+ 
+
+  <!-- Task:15 -->
+<!-- 
+  <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>check whether a string contains a substring</title>
+     <script type="text/javascript">
+ 
+         var string = prompt("Enter a string");
+         var substring ="the";
+         console.log(string);
+         var test1 = string.includes(substring);
+         console.log(test1);
+         var test2 = string.indexOf(substring);
+         console.log(test2);
+     </script>
+ 
+ </head>
+ <body>
+     
+ </body>
+ </html>
+
+ !DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>convert the first letter of a string into uppercase </title>
+     <script type="text/javascript">
+         var string = prompt("Enter a string");
+         console.log(string);
+         var first = string.charAt(0);
+         console.log(first);
+         console.log(first.toUpperCase());
+         var rem = string.slice(1);
+         console.log(rem);
+         var caps = first.toUpperCase() + rem;
+         console.log(`${caps}`);
+     </script>
+ 
+ </head>
+ <body>
+     
+ </body>
+ </html>
+
+  Task:16
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>count the number of vowels in a string using Regex</title>
+     <script type="text/javascript">
+         var string = prompt("Enter a string");
+         const reg = /[aeiou]/gi;
+         var chars = string.match(reg);
+         console.log(chars.join(','));
+         console.log(chars.length);
+     </script>
+ 
+     
+ </head>
+ <body>
+     
+ </body>
+ </html>
+
+  Task:17 -->
+<!-- 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>To find armstrong numbers between an interval</title>
+     <script type="text/javascript">
+         var a = prompt("Enter lower number");
+         var b = prompt("Enter upper number");
+         for(var i = a; i<=b; i++){
+             var temp = i;
+             var noOfDigits = i.toString().length;
+             var sum = 0;
+             while(temp > 0){
+                 var digit = temp%10;
+                 temp = parseInt(temp/10);
+                 sum += digit ** noOfDigits;
+             }
+             if(sum == i){
+                 console.log(i);
+             }
+         }
+     </script>
+ 
+ </head>
+ <body>
+     
+ </body>
+ </html> -->
+
+
+  <!-- Task:18 -->
+
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TO FIND SUM OF NATURAL NUMBERS USING RECURSION</title>
+     <script type="text/javascript">
+         function sum(num){
+             if(num>0){
+                 return num + sum(num-1)
+             }
+             else{
+                 return num;
+             }
+         }
+         var res = sum(20);
+         console.log(res);
+ 
+     </script>
+ </head>
+ <body>
+     
+ </body>
+ </html> -->
+
+
+  <!-- Task:19-->
+
+ <!-- !DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>FIND THE FACTORS OF A NUMBER</title>
+     <script type="text/javascript">
+         var number = prompt("Enter a number");
+         for(var i = 1; i<=number; i++){
+             if(number%i == 0){
+                 console.log(i);
+             }
+         }
+     </script>
+ 
+ </head>
+ <body>
+     
+ </body>
+ </html>
+
+  Task:20
+
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>SIMPLE CALCULATOR USING SWITCH CASE</title>
+     <script type="text/javascript">
+         var num1 = prompt("Enter 1st number");
+         var num2 = prompt("Enter 2nd number");
+         var opr = prompt("Select among +,-,x,/");
+ 
+         switch (opr) {
+             case "+":
+                 var res = parseFloat(num1) + parseFloat(num2);
+                 console.log(`${num1} + ${num2} = ${res}`);
+                 break;
+ 
+             case "-":
+                 var res = parseFloat(num1) - parseFloat(num2);
+                 console.log(`${num1} - ${num2} = ${res}`);
+                 break;
+ 
+ 
+             case "x":
+                 var res = parseFloat(num1) * parseFloat(num2);
+                 console.log(`${num1} x ${num2} = ${res}`);
+                 break;
+ 
+             case "/":
+                 var res = parseFloat(num1) / parseFloat(num2);
+                 console.log(`${num1} / ${num2} = ${res}`);
+                 break;
+ 
+             default:
+                 console.log('Invalid Operator');
+ 
+         }
+ 
+     </script>
+ 
+ </head>
+ 
+ <body>
+ 
+ </body>
+ 
+ </html>
+
+
+  Task:21
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TO PRINT THE FIBONACCI SEQUENCE</title>
+     <script type="text/javascript">
+         var a = 0, b = 1;
+         console.log(a);
+         console.log(b);
+         for(var i=0; i<=7; i++){
+             var temp = a + b;
+             console.log(temp);
+             a = b;
+             b = temp;
+         }
+     </script>
+ </head>
+ <body>
+     
+ </body>
+ </html>
+
+
+
+   Task:22 -->
+
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>REPLACE CHARACTERS OF A STRING</title>
+     <script type="text/javascript">
+         var string = "Mr. Red has a red car and a red bike";
+         console.log(string);
+         var reg = new RegExp('red','gi');
+         var newString = string.replace(reg, 'blue');
+         console.log(newString);
+     </script>
+ 
+ </head>
+ <body>
+     
+ </body>
+ </html> -->
+
+  <!-- Task:23-->
+<!-- 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TO REVERSE A STRING USING FOR LOOP</title>
+     <script type="text/javascript">
+         var string = prompt("Enter a string");
+         var strLen = string.length;
+         var revStr = '';
+         for(var i = strLen-1; i>=0; i--){
+             revStr += string[i];
+         }
+         console.log(`${string} reverse is ${revStr}`);
+     </script>
+ </head>
+ <body>
+     
+ </body>
+ </html>
+
+   Task:24
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TO SORT WORDS IN ALPHABETICAL ORDER</title>
+     <script type="text/javascript">
+         var string = prompt("Enter a string");
+         var stringArray = string.split(' ');
+         stringArray.sort();
+         console.log(string);
+         console.log(stringArray);
+         console.log(stringArray.join(' '));
+         
+     </script>
+ 
+ </head>
+ <body>
+     
+ </body>
+ </html>
+
+
+
+   <!-- Task:25 -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TO FIND AREA OF A TRIANGLE</title>
+     <script type="text/javascript">
+         // 1. General Formula: (base * height)/2;
+      /* we will take the base and height measurement from the user and will calculate the area of the right angled
+         triangle.*/
+         //var base = prompt("enter the base value");
+         //var height = prompt("enter the height value");
+         //var area = (base * height)/2;
+         //console.log(area);
+         //console.log('Base: '+ base + '   Height: ' + height + '   Area: '+ area);
+ 
+ // 2. To find the area of regular triangle :
+ /* if you know all the sides of a triangle, you can find the area using heron's formula. id=f a, b and c are three sides of a triangle, then :
+     GENERAL FORMULA: s = (a+b+c)/2; */
+     var a = 20;
+     var b = 6;
+     var c = 20;
+     var s = (a+b+c)/2;
+     var temp = s*(s-a)*(s-b)*(s-c);
+     var area = Math.sqrt(temp);
+     console.log(area);
+ 
+     // for equilateral triangle:
+     var a = 20;
+     var b = 20;
+     var c = 20;
+     var s = (a+b+c)/2;
+     var temp = s*(s-a)*(s-b)*(s-c);
+     var area = Math.sqrt(temp);
+     console.log(area);
+ 
+ 
+ 
+ 
+     </script>
+ 
+ 
+ </head>
+ 
+ <body>
+ 
+ </body>
+ 
+ </html> 
+
+
+   <!-- Task:26 -->
+<!-- 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Generate a random number</title>
+     <script type="text/javascript">
+         //using 
+         // Math.random() method.
+         // syntax: Math.random();
+         //math.random returns a random floating-point number ranging from 0 to less than 1.
+         var a = Math.random();
+         console.log(a);
+ 
+         /* get a random number between a range
+         Math.random()*(highestNumber - lowestNumber) + lowestNumber */ 
+         
+         //generating a random floating number
+         var x = Math.random();
+         console.log("Before Calculation "+x);
+         x = x * (10 - 1) + 1;
+         console.log("After Calculation "+x);
+ 
+ 
+         //generating a random integer number
+         var x = Math.random();
+         console.log("Before Calculation "+x);
+         x = x * (10 - 1) + 1;
+         console.log("After Calculation "+x);
+         console.log("Floor Calculation "+ Math.floor(x));
+ 
+         //for fixed number
+         var x = Math.random();
+         console.log("Before Calculation "+x);
+         x = x * 10000;
+         console.log("After Calculation "+x);
+         console.log("Floor Calculation "+ Math.floor(x));
+ 
+ 
+         
+     </script>
+ </head>
+ <body>
+     
+ </body>
+ </html> -->
+
+    <!-- Task:27 -->
+
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>count the number of vowels in a string using Regex</title>
+     <script type="text/javascript">
+         var string = prompt("Enter a string");
+         const reg = /[aeiou]/gi;
+         var chars = string.match(reg);
+         console.log(chars.join(','));
+         console.log(chars.length);
+     </script>
+ 
+     
+ </head>
+ <body>
+     
+ </body>
+ </html> -->
+
+<!-- Task:28 -->
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>CHECK THE NUMBER OF OCCURRENCES OF A CHARACTER IN STRING USING FOR LOOP </title>
+     <script type="text/javascript">
+ 
+         var string = prompt('Enter a string');
+         var letter = prompt('Enter a letter');
+         let strlen = string.length;
+         var counter = 0;
+ 
+         for(var i = 0; i < strlen; i++){
+             if(string[i] == letter){
+                 counter++;
+             }
+         }
+         console.log(`${string} => ${letter} => ${counter}`);
+ 
+     </script>
+ </head>
+ <body>
+     
+ </body>
+ </html> -->
+
+
+
+ <!-- Task: 29 -->
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Check if the number have the same last digit</title>
+     <script type="text/javascript">
+         var a = prompt("Enter 'a' number");
+         var b = prompt("Enter 'b' number");
+         var c = prompt("Enter 'c' number");
+ 
+         var res1 = a%10;
+         var res2 = b%10;
+         var res3 = c%10;
+ 
+         if(res1 === res2 && res1 === res3){
+             console.log(`${a}, ${b}, ${c} are having the same last digit`);
+         }
+         else{
+             console.log(`${a}, ${b}, ${c} are not having the same last digit`);
+ 
+         }
+     </script>
+ </head>
+ <body>
+     
+ </body>
+ </html> -->
+
+ <!-- Task: 30 -->
+<!-- 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>CHECK IF A NUMBER IS ODD OR EVEN</title>
+     <script type="text/javascript">
+         // checking using if-else:
+         var x = 9;
+         if(x%2 == 0){
+             //even
+             console.log(`${x} is an even number`);
+         }
+         else{
+             //odd
+             console.log(`${x} is an odd number`);
+         }
+ 
+         // checking using ternary operator :
+         var x = 4;
+         var result = x%2 == 0 ? "EVEN" : "ODD";
+         console.log(`${x} is an ${result} number`);
+         
+ 
+     </script>
+ </head>
+ <body>
+     
+ </body>
+ </html> -->
